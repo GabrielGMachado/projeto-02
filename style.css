@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  width: 1000px;
+  margin: 65px auto 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #000;
+}
